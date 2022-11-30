@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Fast & Furious - The Best Movie Ever?" />
+
+    <meta property="og:image" content="media/ff-wallpaper" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nephilims-furious.netlify.app" />
+    <meta property="og:title" content="Furious" />
+    <meta property="og:description" content="Furious" />
+
+    <link rel="icon" href="media/favicon.png" />
+    <link rel="apple-touch-icon" href="media/apple-touch-icon.png" />
+    <link rel="manifest" href="mainfest.webmanifest" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nephilim's Furious &dash; QUIZ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;800&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/quiz.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-box">
+        <a href="index.html" class="logo">FAST & FURIOUS</a>
+      </div>
+      <div class="links">
+        <a href="index.html" class="nav-link"
+          ><ion-icon name="home-outline" class="nav-icon"></ion-icon> Home</a
+        >
+        <a href="quiz.html" class="nav-link"
+          ><ion-icon name="game-controller-outline" class="nav-icon"></ion-icon>
+          Quiz</a
+        >
+        <a href="iconic.html" class="nav-link"
+          ><ion-icon name="star-outline" class="nav-icon"></ion-icon> Iconic</a
+        >
+      </div>
+    </nav>
+
+    <section class="section-quiz">
+      <h1 class="quiz-header">Hardest F&F Quiz!</h1>
+      <button class="btn-start">START!</button>
+      <div class="img-box hidden img-box1">
+        <img src="media/quiz.jpg" alt="F&F Wallpaper" />
+      </div>
+      <div class="quiz-container hidden">
+        <h2 class="question">sejlsnc afsljdnjlaw sdlfjeslkdfa aljsf?</h2>
+        <p class="answer answer-1">A. uieksc</p>
+        <p class="answer answer-2">B. lisdnflke</p>
+        <p class="answer answer-3">C. lisdnflke</p>
+        <p class="answer answer-4">D. lisdnflke</p>
+        <div class="answer-box">
+          <p class="advice">Enter the Letter of the Answer (A, B, C, D):</p>
+          <input type="text" class="input" placeholder="Your Answer:" />
+          <button class="btn-next">NEXT</button>
+        </div>
+      </div>
+      <div class="result hidden">
+        <div class="img-box result-img">
+          <img src="media/quiz.jpg" alt="" class="result-image" />
+          <h1 class="result-text"></h1>
+        </div>
+      </div>
+    </section>
+    <script src="js/quiz.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

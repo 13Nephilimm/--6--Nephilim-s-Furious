@@ -1,0 +1,241 @@
+/***********************************/
+/* BELOW 1344px (Smaller Desktops) */
+/***********************************/
+
+@media (max-width: 930px) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  * {
+    overflow-x: hidden;
+  }
+}
+
+/***********************************/
+/* BELOW 1200px (Landscape Tablets) */
+/***********************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .iconic-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/***********************************/
+/* BELOW 944px (Tablets) */
+/***********************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-iconic {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .main-header {
+    font-size: 6.4rem;
+  }
+
+  .section-authors {
+    gap: 2.4rem;
+  }
+
+  .img-box {
+    max-width: 20rem;
+  }
+
+  .img-box img {
+    max-width: 100%;
+  }
+
+  .actors-header {
+    font-size: 4rem;
+  }
+
+  .box-header {
+    font-size: 4rem;
+  }
+
+  .small-text {
+    font-size: 3rem;
+  }
+
+  .movie-box img {
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+
+  .movies-header {
+    font-size: 4.8rem;
+  }
+
+  .movie-name {
+    font-size: 3rem;
+  }
+}
+
+/***********************************/
+/* BELOW 704px (Smaller Tablets) */
+/***********************************/
+
+@media (max-width: 44em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/***********************************/
+/* BELOW 544px (Phones) */
+/***********************************/
+
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .iconics {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .question {
+    font-size: 3rem;
+    padding: 1.2rem;
+  }
+
+  .answer {
+    font-size: 3rem;
+  }
+
+  .btn-next {
+    padding: 8px 16px;
+    font-size: 2rem;
+  }
+
+  .result-text {
+    font-size: 4.8rem;
+  }
+
+  .result {
+    padding: 4.8rem 1.8rem;
+  }
+
+  .advice {
+    font-size: 2rem;
+  }
+
+  .input {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .main-header {
+    font-size: 4rem;
+  }
+
+  .section-authors {
+    gap: 2.4rem;
+  }
+
+  .img-box {
+    max-width: 20rem;
+  }
+
+  .img-box img {
+    max-width: 100%;
+  }
+
+  .actors-header {
+    font-size: 3.5rem;
+  }
+
+  .box-header {
+    font-size: 3.5rem;
+  }
+
+  .small-text {
+    font-size: 2.5rem;
+  }
+
+  .movie-box img {
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+
+  .movies-header {
+    font-size: 3.6rem;
+  }
+
+  .movie-name {
+    font-size: 2rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+
+  strong {
+    font-size: 1.8rem;
+  }
+}
